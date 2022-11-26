@@ -1,0 +1,45 @@
+{
+  "name": "@nanoexpress/middleware-schemator",
+  "version": "1.0.0",
+  "description": "Schemator middleware for nanoexpress",
+  "type": "module",
+  "main": "schemator.es.js",
+  "typings": "schemator.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/dalisoft"
+  },
+  "engines": {
+    "node": ">=12.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanoexpress/middlewares.git"
+  },
+  "keywords": [
+    "nanoexpress",
+    "middlewares",
+    "schemator",
+    "validation",
+    "serialization"
+  ],
+  "author": "dalisoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanoexpress/middlewares/issues"
+  },
+  "homepage": "https://github.com/nanoexpress/middlewares#readme",
+  "dependencies": {
+    "@nanoexpress/middleware-static-serve": "^1.0.3",
+    "ajv": "8.11.2",
+    "ajv-formats": "^2.1.1",
+    "fast-json-stringify": "5.4.1",
+    "getdirname": "0.1.5",
+    "js-yaml": "4.1.0",
+    "lodash.omit": "4.5.0",
+    "swagger-ui-dist": "4.15.5"
+  }
+}
